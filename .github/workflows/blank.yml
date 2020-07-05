@@ -28,7 +28,7 @@ jobs:
     
     - name: Test if directory changes persist between steps - part 1
       run: |
-        cd test
+        cd testfolder
         ls
         
     - name: Test if directory changes persist between steps - part 2
